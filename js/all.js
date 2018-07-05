@@ -17,7 +17,6 @@ $(document).ready(function () {
         e.preventDefault();
         $(this).parent().removeClass('animated flipInY');
         $(this).parent().addClass('animated flipOutY');
-        $(this).parent().delay(3000, 'hide').css('display', 'none');
         $('body').css('overflow', 'auto');
     });
 
