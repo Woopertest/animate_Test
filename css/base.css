@@ -63,6 +63,13 @@ a:hover{
   transition: ease 0.5s;
 }
 
+.lock-position{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
 /*  clearfix
 ------------------------------*/
 .clearfix:after {/*for modern browser*/
